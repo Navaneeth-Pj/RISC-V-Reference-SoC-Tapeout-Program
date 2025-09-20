@@ -19,12 +19,19 @@ $ make
 $ sudo make install
 ```
 ![Image Alt](Screenshots/yosys.png)
+<ul>
+    <li>Yosys is an open source tool for verilog RTL synthesis.</li>
+    <li>It takes verilog code and translates to detailed netlist.</li>
+</ul>
 ## Iverilog
 
 ```bash
 $ sudo apt-get install iverilog
 ```
 ![Image Alt](Screenshots/iverilog.png)
+<ul>
+    <li>Icarus Verilog (iverilog) is a free and open-source software tool for simulating and synthesizing hardware designs written in the Verilog HDL.</li>
+</ul>
 ## GTKWave
 
 ```bash
@@ -32,3 +39,6 @@ $ sudo apt update
 $ sudo apt install gtkwave
 ```
 ![Image Alt](Screenshots/gtkwave.png)
+<ul>
+    <li>GTKWave is a free, and open-source waveform viewer used for analyzing the results of digital circuit simulations.</li>
+</ul>
