@@ -1,11 +1,11 @@
 # RISC-V-Reference-SoC-Tapeout-Program
 This repository contains my weekly updates of "RISC‑V Reference SoC Tapeout Program". The topics are organized by weekly, and you can click on each heading to expand and see more details.
 <details>
-<summary><b>Day 0 - Tools Installation</b></summary>
+<summary><b>Week 0 - Tools Installation</b></summary>
 <br>
     
-## Week 0 - Toosl installation
-# Yosys
+# Week 0 - Toosl installation
+## Yosys
 
 ```bash
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -19,13 +19,13 @@ $ make
 $ sudo make install
 ```
 ![Image Alt](yosys.png)
-# Iverilog
+## Iverilog
 
 ```bash
 $ sudo apt-get install iverilog
 ```
 ![Image Alt](iverilog.png)
-# GTKWave
+## GTKWave
 
 ```bash
 $ sudo apt update
