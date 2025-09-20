@@ -16,8 +16,7 @@ $ sudo apt-get install build-essential clang bison flex \
 $ make 
 $ sudo make install
 ```
-([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/Navaneeth-Pj/RISC-V-Reference-SoC-Tapeout-Program/blob/main/yosys.png))
-
+![Image Alt](yosys.png)
 ## Iverilog
 
 ```bash
