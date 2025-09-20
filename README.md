@@ -4,7 +4,7 @@ This repository contains my weekly updates of "RISC‑V Reference SoC Tapeout Pr
 <summary><b>Week 0 - Tools Installation</b></summary>
 <br>
     
-# Week 0 - Toosl installation
+# Week 0 - Tools installation
 ## Yosys
 
 ```bash
