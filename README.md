@@ -34,7 +34,8 @@ $ sudo make install
 </ul>
 
 ```bash
-$ sudo apt-get install iverilog
+sudo apt-get update
+sudo apt-get install iverilog
 ```
 
 ![Image Alt](Screenshots/iverilog.png)
