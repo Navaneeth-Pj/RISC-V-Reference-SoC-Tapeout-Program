@@ -22,7 +22,7 @@ $ sudo make install
 ```bash
 $ sudo apt-get install iverilog
 ```
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Image Alt](iverilog.png)
 ## GTKWave
 
 ```bash
