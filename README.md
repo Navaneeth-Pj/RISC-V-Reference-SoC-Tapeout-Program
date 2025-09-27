@@ -79,7 +79,7 @@ $ sudo apt install gtkwave
 ## 2. Lab using iverilog and gtkwave     
 </h>
 <br>
-clone the workshope repository
+1. clone the workshope repository
 <br>
 
 ```bash
@@ -88,22 +88,22 @@ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
 <br>
 
-Verilog code for 2to1 mux 
+2. Verilog code for 2to1 mux 
 
 ![Image Alt](Screenshots/code.jpg)
 
 <br>
-Compile design and test bench:
+3. Compile design and test bench:
 
 ```bash
 iverilog good_mux.v tb_good_mux.v
 ```
-Run the simulation:
+4. Run the simulation:
 
 ```bash
 ./a.out
 ```
-view waveform:
+5. view waveform:
 
 ```bash
 gtkwave tb_good_mux.vcd
@@ -128,6 +128,40 @@ gtkwave tb_good_mux.vcd
 
 ## 4. Lab using Yosys and Sky130PDK
 </h>
+
+<br>
+1. Start yosys
+
+```bash
+yosys
+```
+2. Read Library:
+
+```bash
+read_liberty -lib /lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+3. Read verilog code
+
+```bash
+read_verilog good_mux.v
+```
+4. Synthesize the design
+
+```bash
+synth -top good_mux
+```
+5. Technology mapping
+
+```bash
+abc -liberty /lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+6. Viewing gate level netlist
+
+```bash
+show
+```
+![Image Alt](Screenshots/yosys_synthesizer.png)
+
 
 
 </details>
