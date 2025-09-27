@@ -172,7 +172,8 @@ show
 
 
 </details>
-
+<details>
+<summary><b>Day 2 -Timing libs,hierarchical vs flat synthesis and efficient flop coding style</b></summary>
       
 </details>
 
