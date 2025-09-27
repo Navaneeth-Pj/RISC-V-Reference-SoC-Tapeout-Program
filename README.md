@@ -174,6 +174,72 @@ show
 </details>
 <details>
 <summary><b>Day 2 -Timing libs,hierarchical vs flat synthesis and efficient flop coding style</b></summary>
-      
+
+ <h>
+
+## 1. Introduction to timing libs
+</h>
+The Sky130 Process Design Kit (PDK), an open-source platform for integrated circuit design, provides a comprehensive suite of timing libraries essential for static timing analysis (STA). These libraries, provided in the industry-standard Liberty (.lib) format, contain detailed information about the performance of the standard cells under various operating conditions. This allows designers to accurately predict and verify the timing of their digital circuits before manufacturing.
+
+![Image Alt](Screenshots/netlist_mux2to1.jpg)
+
+<h>
+    
+## 2. Hierarchical vs. Flattened Synthesis
+</h>
+
+<ul>
+    <ls>Hierarchical synthesis respects the boundaries of the modules defined in the Verilog code. Each module is synthesized as a separate entity, and the overall design is then constructed by connecting these synthesized sub-modules. This approach mirrors the structured and modular way designers often write their code, breaking down a complex system into smaller, manageable blocks.</ls>
+    
+   ![Image Alt](Screenshots/netlist_mux2to1.jpg) 
+    <ls>flat synthesis dissolves these modular boundaries. The synthesis tool takes the entire design and "flattens" it into a single, large module. This process effectively exposes all the logic to the synthesis tool at once, allowing for optimizations across the entire design without being constrained by the original module partitions.</ls>
+    ![Image Alt](Screenshots/netlist_mux2to1.jpg)
+</ul>
+
+<h>
+
+## 3. Flops coding styles and optimization
+
+</h>
+if we use only combinational circuits to design a system then the output will not settle, it will show glitches. To avoid this we use flops. Flops gives stable outputs and eliminates glitches.
+<br>
+1. Asynchronous Reset D Flip-Flop
+
+```bash 
+module dff_asyncres (input clk, input async_reset, input d, output reg q);
+  always @ (posedge clk, posedge async_reset)
+    if (async_reset)
+      q <= 1'b0;
+    else
+      q <= d;
+endmodule
+```
+
+2. Asynchronous Set D Flip-Flop
+
+```bash
+module dff_async_set (input clk, input async_set, input d, output reg q);
+  always @ (posedge clk, posedge async_set)
+    if (async_set)
+      q <= 1'b1;
+    else
+      q <= d;
+endmodule
+```
+
+3. Synchronous Reset D Flip-Flop
+
+```bash
+module dff_syncres (input clk, input async_reset, input sync_reset, input d, output reg q);
+  always @ (posedge clk)
+    if (sync_reset)
+      q <= 1'b0;
+    else
+      q <= d;
+endmodule
+```
+![Image Alt](Screenshots/netlist_mux2to1.jpg)
+
+
 </details>
 
