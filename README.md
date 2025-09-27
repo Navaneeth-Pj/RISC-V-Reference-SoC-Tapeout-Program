@@ -115,7 +115,7 @@ gtkwave tb_good_mux.vcd
 ## 3. Introduction to yosys and logic synthesis
 </h>
 
-![Image Alt](Screenshots/mux_graph.jpg)
+![Image Alt](Screenshots/yosys_synthesizer.png)
 
 <ul>
     <li>RTL design - Behavioral representation of the required specification</li>
