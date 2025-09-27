@@ -191,7 +191,7 @@ The Sky130 Process Design Kit (PDK), an open-source platform for integrated circ
 <ul>
     <ls>Hierarchical synthesis respects the boundaries of the modules defined in the Verilog code. Each module is synthesized as a separate entity, and the overall design is then constructed by connecting these synthesized sub-modules. This approach mirrors the structured and modular way designers often write their code, breaking down a complex system into smaller, manageable blocks.</ls>
     
-   ![Image Alt](Screenshots/netlist_mux2to1.jpg) 
+   ![Image Alt](Screenshots/hierarchical.jpg) 
     <ls>flat synthesis dissolves these modular boundaries. The synthesis tool takes the entire design and "flattens" it into a single, large module. This process effectively exposes all the logic to the synthesis tool at once, allowing for optimizations across the entire design without being constrained by the original module partitions.</ls>
     ![Image Alt](Screenshots/netlist_mux2to1.jpg)
 </ul>
