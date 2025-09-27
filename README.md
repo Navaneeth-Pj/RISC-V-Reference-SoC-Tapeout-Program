@@ -61,13 +61,14 @@ $ sudo apt install gtkwave
     
 # Week 1 - Synthesis & GLS
 <details>
-<summary><b>Day 1 -Introduction to Verilog RTL Desgin and Synthesis</b>b></summary>
+<summary><b>Day 1 -Introduction to Verilog RTL Desgin and Synthesis</b></summary>
 <br>
 <h1> 
     
 ## 1.Introduction to  open source simulator - iverilog    
 </h1>
-      
+![Image Alt](Screenshots/gtkwave.png)  
+
 </details>
 
       
