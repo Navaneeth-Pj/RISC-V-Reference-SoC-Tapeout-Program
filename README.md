@@ -102,7 +102,7 @@ view waveform:
 ```bash
 gtkwave tb_good_mux.vcd
 ```
-![Image Alt](Screenshots/iverilog_design_flow.png)
+![Image Alt](Screenshots/mux_graph.jpg)
 
 
 </details>
