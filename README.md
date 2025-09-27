@@ -160,8 +160,19 @@ abc -liberty /lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```bash
 show
 ```
-![Image Alt](Screenshots/yosys_synthesizer.png)
 
+![Image Alt](Screenshots/netlist_mux2to1.jpg)
+
+<h>
+
+## 5. Summary
+</h>
+
+<ul>
+    <li>Learned about test bench, simulators and logic synthesis</li>
+    <li>Learned how to manage missing module errors in linux terminal</li>
+    <li>Understood the use of faset and slower cells</li>
+</ul>
 
 
 </details>
