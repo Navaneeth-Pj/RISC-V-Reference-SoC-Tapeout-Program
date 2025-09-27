@@ -78,21 +78,18 @@ $ sudo apt install gtkwave
     
 ## 2. Lab using iverilog and gtkwave     
 </h>
-<br>
+
 1. clone the workshope repository
-<br>
 
 ```bash
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
-<br>
 
 2. Verilog code for 2to1 mux 
 
 ![Image Alt](Screenshots/code.jpg)
 
-<br>
 3. Compile design and test bench:
 
 ```bash
@@ -129,7 +126,6 @@ gtkwave tb_good_mux.vcd
 ## 4. Lab using Yosys and Sky130PDK
 </h>
 
-<br>
 1. Start yosys
 
 ```bash
