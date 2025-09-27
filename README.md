@@ -193,7 +193,7 @@ The Sky130 Process Design Kit (PDK), an open-source platform for integrated circ
     
    ![Image Alt](Screenshots/hierarchical.jpg) 
     <ls>flat synthesis dissolves these modular boundaries. The synthesis tool takes the entire design and "flattens" it into a single, large module. This process effectively exposes all the logic to the synthesis tool at once, allowing for optimizations across the entire design without being constrained by the original module partitions.</ls>
-    ![Image Alt](Screenshots/netlist_mux2to1.jpg)
+    ![Image Alt](Screenshots/flat.jpg)
 </ul>
 
 <h>
