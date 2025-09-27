@@ -65,7 +65,7 @@ $ sudo apt install gtkwave
 <br>
 <h> 
     
-## 1.Introduction to  open source simulator - iverilog    
+## 1. Introduction to  open source simulator - iverilog    
 </h>
 
 ![Image Alt](Screenshots/iverilog_design_flow.png) 
@@ -76,7 +76,7 @@ $ sudo apt install gtkwave
 </ul>
 <h>
     
-## 2.Lab using iverilog and gtkwave     
+## 2. Lab using iverilog and gtkwave     
 </h>
 <br>
 clone the workshope repository
@@ -86,6 +86,12 @@ clone the workshope repository
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
+<br>
+
+Verilog code for 2to1 mux 
+
+![Image Alt](Screenshots/mux_graph.jpg)
+
 <br>
 Compile design and test bench:
 
@@ -104,7 +110,20 @@ gtkwave tb_good_mux.vcd
 ```
 ![Image Alt](Screenshots/mux_graph.jpg)
 
+<h>
+    
+## 3. Introduction to yosys and logic synthesis
+</h>
 
+![Image Alt](Screenshots/mux_graph.jpg)
+
+<ul>
+    <li>RTL design - Behavioral representation of the required specification</li>
+    <li>Synthesis - RTL to Gate level translation</li>
+    <li>'.lib' - Collection of logical modules</li>
+    <li>Netlist - A gate-level description of a design's logical structure, detailing the interconnections (nets) between standard logic cells (gates, flip-flops) that implement the design's functionality</li>
+</ul>
+    
 </details>
 
       
