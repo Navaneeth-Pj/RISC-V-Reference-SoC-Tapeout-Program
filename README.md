@@ -90,7 +90,7 @@ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 
 Verilog code for 2to1 mux 
 
-![Image Alt](Screenshots/mux_graph.jpg)
+![Image Alt](Screenshots/code.jpg)
 
 <br>
 Compile design and test bench:
