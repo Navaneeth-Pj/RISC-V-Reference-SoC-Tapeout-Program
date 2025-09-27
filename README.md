@@ -53,6 +53,8 @@ $ sudo apt install gtkwave
 
 ![Image Alt](Screenshots/gtkwave.png)
 
+<details>
+    
 <summary><b>Week 1 -Synthesis & GLS</b></summary>
 <br>
     
