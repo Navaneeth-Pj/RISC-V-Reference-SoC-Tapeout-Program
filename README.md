@@ -167,7 +167,7 @@ show
 <ul>
     <li>Learned about test bench, simulators and logic synthesis</li>
     <li>Learned how to manage missing module errors in linux terminal</li>
-    <li>Understood the use of faset and slower cells</li>
+    <li>Understood the use of faster and slower cells</li>
 </ul>
 
 
