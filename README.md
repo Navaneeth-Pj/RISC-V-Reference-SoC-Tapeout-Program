@@ -238,7 +238,7 @@ module dff_syncres (input clk, input async_reset, input sync_reset, input d, out
       q <= d;
 endmodule
 ```
-![Image Alt](Screenshots/netlist_mux2to1.jpg)
+![Image Alt](Screenshots/dff.jpg)
 
 
 </details>
