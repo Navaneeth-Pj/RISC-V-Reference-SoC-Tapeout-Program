@@ -68,8 +68,7 @@ $ sudo apt install gtkwave
 ## 1.Introduction to  open source simulator - iverilog    
 </h1>
 
-![Image Alt](Screenshots/iverilog design flow.png)  
-
+![Image Alt](Screenshots/iverilog design flow.png) 
 </details>
 
       
