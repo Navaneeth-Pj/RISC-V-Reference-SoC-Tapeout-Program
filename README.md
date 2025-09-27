@@ -238,6 +238,7 @@ module dff_syncres (input clk, input async_reset, input sync_reset, input d, out
       q <= d;
 endmodule
 ```
+## gtk wave of dff
 ![Image Alt](Screenshots/dff.jpg)
 
 
