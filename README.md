@@ -181,7 +181,7 @@ show
 </h>
 The Sky130 Process Design Kit (PDK), an open-source platform for integrated circuit design, provides a comprehensive suite of timing libraries essential for static timing analysis (STA). These libraries, provided in the industry-standard Liberty (.lib) format, contain detailed information about the performance of the standard cells under various operating conditions. This allows designers to accurately predict and verify the timing of their digital circuits before manufacturing.
 
-![Image Alt](Screenshots/netlist_mux2to1.jpg)
+![Image Alt](Screenshots/lib.jpg)
 
 <h>
     
